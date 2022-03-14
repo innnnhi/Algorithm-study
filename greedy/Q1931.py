@@ -15,3 +15,4 @@ for i in range(1, len(data)):
         h = c[1]
         cnt += 1
 print(cnt)
+#
