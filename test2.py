@@ -19,3 +19,5 @@ for i in range(len(cards)):
                 target = cards[i]+cards[j]+cards[k]
 print(target)
 
+
+# test
