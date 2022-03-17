@@ -14,9 +14,9 @@
 # 이어서 그 수만큼 한 줄에 한 쌍씩 네트워크 상에서 직접 연결되어 있는 컴퓨터의 번호 쌍이 주어진다.
 
 from collections import deque
-node = int(input())
-trunk = int(input())
-graph = [[] for _ in range(node+1)]
+node = int(input()) #노드 받고
+trunk = int(input()) # 간선 받기
+graph = [[] for _ in range(node+1)] # 그래프로 만들 2차원 리스트 생성
 
 for _ in range(trunk):
     a , b = map(int, input().split())
