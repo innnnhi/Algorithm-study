@@ -22,7 +22,7 @@ que = deque()
 que.append((0, 0, 0))
 
 
-def bfs():
+def bfs(): ##
     while que:
         x, y, t = que.popleft() # 탐색시작지점 갱신
         if x == n-1 and y == m-1: # 우리가 원하는 끝지점 도달시 그 즉시 리턴
