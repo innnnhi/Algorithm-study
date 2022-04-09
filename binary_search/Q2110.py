@@ -27,5 +27,5 @@ while start <= end:
     else: # 지금 설치된 공유기 총 개수가 내가 설치할 공유기보다 덜 설치됐어 -> 그러면 더 짧게 설치해서 더 많이 설치해야지
         end = h2h -1
 
-print(end)
+# print(end)
 print(result)
