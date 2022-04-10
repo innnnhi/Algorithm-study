@@ -2,7 +2,7 @@
 # a = [10, 20, 10, 30, 20, 50] ==> 증가하는 부분 수열 = [10, 20, 30, 50]의 길이 출력
 
 import sys
-from bisect import bisect_left, bisect_right
+from bisect import bisect_left
 
 n = int(input())
 arr = list(map(int, sys.stdin.readline().split()))
